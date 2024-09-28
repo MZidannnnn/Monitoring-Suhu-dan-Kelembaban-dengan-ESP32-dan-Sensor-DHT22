@@ -19,6 +19,22 @@ Berikut adalah diagram rangkaian untuk proyek ini:
 
 ![Diagram Rangkaian](./78dd32b0-e9b1-4f40-90e2-b39a320591db.jpg)
 
+## Koneksi Pin
+
+- **LED Merah**:
+  - **+** (Anoda) ke resistor 1kΩ, lalu dari resistor ke GPIO 4 (Pin 4 di ESP32)
+  - **-** (Katoda) langsung ke GND
+- **LED Hijau**:
+  - **+** ke resistor 1kΩ, lalu dari resistor ke GPIO 16 (Pin 16 di ESP32)
+  - **-** langsung ke GND
+- **LED Biru**:
+  - **+** ke resistor 1kΩ, lalu dari resistor ke GPIO 17 (Pin 17 di ESP32)
+  - **-** langsung ke GND
+- **Sensor DHT22**:
+  - **VCC** ke 3.3V (Pin 3.3V di ESP32)
+  - **GND** ke GND (Pin GND di ESP32)
+  - **Data** ke GPIO 5 (Pin 5 di ESP32)
+
 ## Cara Kerja
 
 1. ESP32 membaca data dari sensor DHT22 untuk suhu dan kelembaban.
