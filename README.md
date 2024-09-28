@@ -17,7 +17,7 @@ Proyek ini memanfaatkan ESP32 dan sensor DHT22 untuk memantau suhu dan kelembaba
 ## Diagram Rangkaian
 Berikut adalah diagram rangkaian untuk proyek ini:
 
-![Diagram Rangkaian](image.png)
+![Diagram Rangkaian](./78dd32b0-e9b1-4f40-90e2-b39a320591db.jpg)
 
 ## Cara Kerja
 
